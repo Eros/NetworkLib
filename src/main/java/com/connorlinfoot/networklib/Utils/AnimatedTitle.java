@@ -38,8 +38,7 @@ public class AnimatedTitle {
     private long period;
 
     //static = ass | constructors = bae
-    public AnimatedTitle(HashMap<UUID, Integer> aProgress, List<String> title, List<String> subtitle, int fadeIn, int stay, int fadeOut, long delay, long period) {
-        this.aProgress = aProgress;
+    public AnimatedTitle(List<String> title, List<String> subtitle, int fadeIn, int stay, int fadeOut, long delay, long period) {
         this.title = title;
         this.subtitle = subtitle;
         this.fadeIn = fadeIn;
