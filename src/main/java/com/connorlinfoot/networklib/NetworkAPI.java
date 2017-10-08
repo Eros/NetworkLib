@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.UUID;
 
 public class NetworkAPI {
+    //i hate git - rapid
     private final NetworkServer networkServer;
     private HashMap<UUID, NetworkPlayer> players = new HashMap<UUID, NetworkPlayer>();
     public ArrayList<Game> games = new ArrayList<Game>();
